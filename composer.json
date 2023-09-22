@@ -1,5 +1,7 @@
 {
     "name": "miguilim/composer-react-promise-bug",
+    "description": "",
+    "license": "MIT",
     "require": {
         "ccxt/ccxt": "^4.0"
     },
