@@ -1,9 +1,9 @@
-name: Composer Install
+name: Composer Install v2.6
 
 on: ["push", "pull_request"]
 
 jobs:
-  singlestore-tests:
+  composer-install-v26:
     runs-on: ubuntu-latest
 
     steps:
