@@ -1,0 +1,16 @@
+{
+    "name": "miguilim/composer-react-promise-bug",
+    "require": {
+        "ccxt/ccxt": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Miguilim\\ComposerReactPromiseBug\\": "src/"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "Miguilim\\ComposerReactPromiseBug\\ComposerScripts::postAutoloadDump"
+        ]
+    }
+}
